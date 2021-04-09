@@ -76,7 +76,23 @@ This exercise shows the diagram for a database resposible for an Order Manager S
 
 >Each item refers to a specific product, but each product can be included in many orders; 
 
->![KaffaTest](https://user-images.githubusercontent.com/38429356/114232646-8ef94180-9952-11eb-8244-3ad700567277.png)
+![KaffaTest](https://user-images.githubusercontent.com/38429356/114245736-66c80d80-9967-11eb-906f-127b088ed19a.png)
+
+>In order to list all the orders with the number of items, the following query could be used:<br/>
+```sql 
+SELECT ORDR.OrderId, PRDT.ProductName, ORIT.OrderItemQuantity, ORIT.OrderItemTotalPrice
+FROM Orders ORDR
+INNER JOIN OrderItems ORIT ON ORDR.OrderId = ORIT.OrderID
+INNER JOIN Products PRDT ON ORIT.ProductID = PRDT.ProductID;
+```
+>Additionally, if the total of items for each order is desired, the query below can be used:<br/>
+```sql
+SELECT ORIT.OrderID, COUNT(ORIT.OrderItemID) 
+FROM Orders ORDR
+INNER JOIN OrderItems ORIT ON ORDR.OrderId = ORIT.OrderID
+INNER JOIN Products PRDT ON ORIT.ProductID = PRDT.ProductID
+GROUP BY ORIT.OrderID;
+```
 
 # Exercise 9 - UX - Prototype
 This exercise, although not needed, was done once it was possible to do so, and shows a screen for creating new projects regarding electric networks.<br/>
