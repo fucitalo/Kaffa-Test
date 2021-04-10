@@ -6,7 +6,7 @@ To facilitate the access to all exercises, a menu was created for selecting the 
 ![image](https://user-images.githubusercontent.com/38429356/114234994-e947d180-9955-11eb-9574-336e92958fd2.png)
 
 # Instructions
-Once inside the folder containing the files, only type "dotnet run" to start the program.
+Once inside the folder containing the files(KaffaTest), only type "dotnet run" to start the program.
 >For the exercises 6 and 7, it was needed to install a new package to read the json files, through the command "dotnet add package Newtonsoft.Json"
 ><br/>PS: To run the command "dotnet" it is necessary to have the SDK for the .NET installed. 
 
