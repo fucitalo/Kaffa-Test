@@ -1,0 +1,11 @@
+F:\KaffaTest\obj\Debug\netcoreapp2.1\KaffaTest.csprojAssemblyReference.cache
+F:\KaffaTest\obj\Debug\netcoreapp2.1\KaffaTest.csproj.CoreCompileInputs.cache
+F:\KaffaTest\obj\Debug\netcoreapp2.1\KaffaTest.AssemblyInfoInputs.cache
+F:\KaffaTest\obj\Debug\netcoreapp2.1\KaffaTest.AssemblyInfo.cs
+F:\KaffaTest\bin\Debug\netcoreapp2.1\KaffaTest.deps.json
+F:\KaffaTest\bin\Debug\netcoreapp2.1\KaffaTest.runtimeconfig.json
+F:\KaffaTest\bin\Debug\netcoreapp2.1\KaffaTest.runtimeconfig.dev.json
+F:\KaffaTest\bin\Debug\netcoreapp2.1\KaffaTest.dll
+F:\KaffaTest\bin\Debug\netcoreapp2.1\KaffaTest.pdb
+F:\KaffaTest\obj\Debug\netcoreapp2.1\KaffaTest.dll
+F:\KaffaTest\obj\Debug\netcoreapp2.1\KaffaTest.pdb
