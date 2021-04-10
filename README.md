@@ -76,7 +76,8 @@ This exercise shows the diagram for a database resposible for an Order Manager S
 
 >Each item refers to a specific product, but each product can be included in many orders; 
 
-![KaffaTest](https://user-images.githubusercontent.com/38429356/114245736-66c80d80-9967-11eb-906f-127b088ed19a.png)
+![KaffaTest](https://user-images.githubusercontent.com/38429356/114286076-12d62b00-9a32-11eb-930d-9b9200178d93.png)
+
 
 >In order to list all the orders with the number of items, the following query could be used:<br/>
 ```sql 
