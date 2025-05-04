@@ -2,7 +2,7 @@
 
 # About
 In the next sections, each exercise will be described and it will be shown how they work.
-To facilitate the access to all exercises, a menu was created for selecting the desired exercise, everithing that is not between 1 and 7 will close the program.<br/>
+To facilitate the access to all exercises, a menu was created for selecting the desired exercise, everything that is not between 1 and 7 will close the program.<br/>
 ![image](https://user-images.githubusercontent.com/38429356/114234994-e947d180-9955-11eb-9574-336e92958fd2.png)
 
 # Instructions
